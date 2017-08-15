@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>Marco De Mattia personal web site</title>
+	<link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+	<link rel="stylesheet" href="stylesheets/ImageLessButtons.css" type="text/css" />
+	<link rel="stylesheet" href="stylesheets/menu_style.css" type="text/css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<!-- jQuery UI is Optional. Its only required if using easing functions. -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+
+	<!-- Menu included using js. The menu is actually html, we only use js to include it with the documnet.write() function -->
+	<!-- <script type="text/javascript" src="javascript/menu.js"> </script> -->
+
+    <style media="all" type="text/css">@import "menu/menu_style.css";</style>
+    <div class="menu">
+    <ul>
+        <li><a href="index.html" target="_self" >Home</a></li>
+        <li>
+            <a href="" target="_self" >Main Activities</a>
+            <ul>
+                <li><a href="L1TrackTrigger.html" target="_self">L1 Tracking Trigger</a></li>
+                <li><a href="DisplacedVertex.html" target="_self">Displaced Vertices</a></li>
+                <li><a href="AlCaDB.html" target="_self">AlCaDB</a></li>
+                <li><a href="MuScleFit.html" target="_self">Momentum Scale Calibration</a></li>
+                <li><a href="VBFHiggs.html" target="_self">VBFHiggs</a></li>
+                <li><a href="UpsilonInHeavyIons.html" target="_self">Upsilon in Heavy Ions</a></li>
+                <li><a href="UpsilonCrossSection.html" target="_self">Upsilon Cross Section</a></li>
+                <li><a href="SiStripCalibration.html" target="_self">SiStrip Tracker Calibration</a></li>
+                <li><a href="Database.html" target="_self">SiStrip Tracker Database</a></li>
+                <li><a href="HDQM.html" target="_self">HDQM</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Presentations.html" target="_self" >Presentations</a>
+            <ul>
+                <li><a href="Presentations.html#InternalToCMS" target="_self">Internal to CMS</a></li>
+                <li><a href="Presentations.html#Exotica" target="_self">Exotica</a></li>
+                <li><a href="Presentations.html#AlCaDB" target="_self">AlCaDB</a></li>
+                <li><a href="Presentations.html#SiStripCalibration" target="_self">SiStrip Calibration</a></li>
+                <li><a href="Presentations.html#MSRVBTF" target="_self">Scale and Resolution for VBTF</a></li>
+                <li><a href="Presentations.html#Conferences" target="_self">Conferences</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Publications.html" target="_self" >Publications</a>
+            <ul>
+                <li><a href="Publications.html#InternalToCMS" target="_self">Internal to CMS</a></li>
+                <li><a href="Publications.html#ConferenceReport" target="_self">Public</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="Code.html" target="_self">Code</a>
+            <ul>
+                <li><a href="Code.html" target="_self">Code</a></li>
+                <li><a href="https://github.com/demattia?tab=repositories" target="_self">Primary github</a></li>
+                <li><a href="https://github.com/marcodemattia?tab=repositories" target="_self">Secondary github</a></li>
+                <li><a href="http://marcodemattia.wordpress.com/" target="_self">Coding exercises blog</a></li>
+            </ul>
+        </li>
+        <li><a href="IPython.html" target="_self">IPython Notebook</a></li>
+        <li><a href="CV.html" target="_self">CV</a></li>
+        <li><a href="" target="_self" >Contact</a></li>
+    </ul>
+    </div>
+
+</head>
+  <body>
+  <div id="pagewidth" >
+    <div id="header" >
+      &nbsp; <br>
+    </div>
+
+    <div id="leftcol" > &nbsp; </div>
+    <div id="maincol" >
+    <br><br><br><br>
+    
+    <h1 class="mainTitle"> History DQM </h1>
+
+    <p>The HistoryDQM is a tool that allows to produce trend plots of DQM quantities vs run number. <br />
+This tool can be used to monitor the status of the detector over a period of time to spot possible variations.</p>
+
+<p>I developed a web application to interface to the main tool, which is available here:
+<a href="http://historydqmweb.cern.ch:8080" name="historydqmweb">http://historydqmweb.cern.ch:8080</a>
+(accessible only from the CERN network, people outside need to open a tunnel)</p>
+
+<p>Here is a screenshot of the interface:</p>
+
+<p><a href="images/HDQM/WebInterface.png"><img src="images/HDQM/WebInterface.png" width="400" height="300" /></a></p>
+
+<h2>Improved Web Interface</h2>
+
+<p>During the Summer of 2010 I followed a summer student who worked on the web inteface introducing several new
+features.</p>
+
+<p>The new interface is avaliable here:
+&lt;a href=”http://historydqmweb.cern.ch:8081”name=”historydqmweb”&gt;http://historydqmweb.cern.ch:8081&lt;/a&gt;.
+It is still only accessible from the CERN network, but work in ongoing to make it accessible from
+outside (with password protection) by setting up an apache server as middleware across the firewall.</p>
+
+<p>Screenshot of the new interface showing the new features:</p>
+
+<p><a href="images/HDQM/NewWebInterface.png"><img src="images/HDQM/NewWebInterface.png" width="400" height="300" /></a></p>
+
+<p>This <a href="http://indico.cern.ch/getFile.py/access?contribId=3&amp;sessionId=3&amp;resId=1&amp;materialId=slides&amp;confId=82611">presentation</a> given by the summer student gives and overview of the interface and some details on the
+implementation, the current features and the plans for future developments.</p>
+
+    
+    </div>
+    <div id="rightcol" > &nbsp; </div>
+    <div id="footer" > &nbsp; </div>
+
+    </div>
+  </body>
+</html>

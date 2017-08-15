@@ -1,0 +1,101 @@
+DQMStore: verbosity set to 1
+DQMStore: QTest verbosity set to 0
+PluginManager Info PluginManager creating CORAL/Services/ConnectionService component
+PluginManager Info PluginManager needs to load CORAL/Services/ConnectionService component
+PluginManager Info PluginManager loaded ConnectionService library
+PluginManager Info PluginManager loaded CORAL/Services/ConnectionService factory from ConnectionService library
+PluginManager Info PluginManager loaded CORAL/Services/ConnectionService2 factory from ConnectionService library
+CORAL/Services/ConnectionService Info Loading default plugin for coral::IRelationalService: CORAL/Services/RelationalService
+PluginManager Info PluginManager creating CORAL/Services/RelationalService component
+PluginManager Info PluginManager needs to load CORAL/Services/RelationalService component
+PluginManager Info PluginManager loaded RelationalService library
+PluginManager Info PluginManager loaded CORAL/Services/RelationalService factory from RelationalService library
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "coral" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "frontier" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "mysql" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "oracle" with native implementation
+CORAL/Services/RelationalService Info Found plugin for RDBMS technology "sqlite" with native implementation
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "coral" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "frontier" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "mysql" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "oracle" is native
+CORAL/Services/RelationalService Info Default implementation for RDBMS technology "sqlite" is native
+PluginManager Info PluginManager creating CORAL/RelationalPlugins/sqlite component
+PluginManager Info PluginManager needs to load CORAL/RelationalPlugins/sqlite component
+PluginManager Info PluginManager loaded SQLiteAccess library
+PluginManager Info PluginManager loaded CORAL/RelationalPlugins/sqlite factory from SQLiteAccess library
+CORAL/Services/ConnectionService Info Connection to service "../dbfile.db" established. Id=4e2402b2-961c-11de-a10d-0021850298bd
+CORAL/Services/ConnectionService Info New session on connection to service "../dbfile.db" started for user "". Connection Id=4e2402b2-961c-11de-a10d-0021850298bd
+FCImplBuilder::BuildFCMetaImpl Info no metadata catalog plugin found for pfncatalog
+DbSession Info     Open     DbSession    
+Domain[POOL_RDBMS] Info >   Access   DbDomain     READ      [POOL_RDBMS] 
+Domain[POOL_RDBMS] Info ->  Access   DbDatabase   READ      [POOL_RDBMS] 00000000-0000-0000-0000-000000000000
+Domain[POOL_RDBMS] Info                           sqlite_file:../dbfile.db
+CORAL/Services/ConnectionService Info New session on connection to service "../dbfile.db" started for user "". Connection Id=4e2402b2-961c-11de-a10d-0021850298bd
+CORAL/Services/ConnectionService Info New session on connection to service "../dbfile.db" started for user "". Connection Id=4e2402b2-961c-11de-a10d-0021850298bd
+sqlite_file:../dbfile.db Info Database being retired...
+Domain[POOL_RDBMS] Info ->  Deaccess DbDatabase   READ      [POOL_RDBMS] 00000000-0000-0000-0000-000000000000
+Domain[POOL_RDBMS] Info >   Deaccess DbDomain     READ      [POOL_RDBMS] 
+%MSG-i SiStripDetInfoFileReader:   SiStripMonitorCondData:CondDataMonitoring@beginRun 31-Aug-2009 12:52:01 CEST  Run: 111664
+filePath /afs/cern.ch/cms/sw/slc4_ia32_gcc345/cms/cmssw/CMSSW_3_2_5/src/CalibTracker/SiStripCommon/data/SiStripDetInfo.dat
+%MSG
+%MSG-i SiStripDetInfoFileReader::SiStripDetInfoFileReader - END of file reached:  SiStripMonitorCondData:CondDataMonitoring@beginRun 31-Aug-2009 12:52:01 CEST  Run: 111664
+
+%MSG
+Begin processing the 1st record. Run 111664, Event 1, LumiSection 1 at 31-Aug-2009 12:52:01 CEST
+DbSession Info     Open     DbSession    
+Domain[POOL_RDBMS] Info >   Access   DbDomain     READ      [POOL_RDBMS] 
+Domain[POOL_RDBMS] Info ->  Access   DbDatabase   READ      [POOL_RDBMS] 00000000-0000-0000-0000-000000000000
+Domain[POOL_RDBMS] Info                           sqlite_file:../dbfile.db
+CORAL/Services/ConnectionService Info New session on connection to service "../dbfile.db" started for user "". Connection Id=4e2402b2-961c-11de-a10d-0021850298bd
+CORAL/Services/ConnectionService Info New session on connection to service "../dbfile.db" started for user "". Connection Id=4e2402b2-961c-11de-a10d-0021850298bd
+sqlite_file:../dbfile.db Info Database being retired...
+Domain[POOL_RDBMS] Info ->  Deaccess DbDatabase   READ      [POOL_RDBMS] 00000000-0000-0000-0000-000000000000
+Domain[POOL_RDBMS] Info >   Deaccess DbDomain     READ      [POOL_RDBMS] 
+created palette with 595 colors
+printing 
+Executing rm PedestalTkMap_Run_111664.coor
+%MSG-i SiStripBaseCondObjDQM:   SiStripMonitorCondData:CondDataMonitoring@beginRun 31-Aug-2009 12:52:22 CEST  Run: 111664
+SiStripBase::end
+%MSG
+ ------------------------------------------------------------
+                    Directory structure:                     
+ ------------------------------------------------------------
+SiStrip/MechanicalView/TEC/side_1/wheel_1:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__1,Summary_PedestalFromCondDB__TEC__side__1__wheel__1
+SiStrip/MechanicalView/TEC/side_1/wheel_2:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__2,Summary_PedestalFromCondDB__TEC__side__1__wheel__2
+SiStrip/MechanicalView/TEC/side_1/wheel_3:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__3,Summary_PedestalFromCondDB__TEC__side__1__wheel__3
+SiStrip/MechanicalView/TEC/side_1/wheel_4:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__4,Summary_PedestalFromCondDB__TEC__side__1__wheel__4
+SiStrip/MechanicalView/TEC/side_1/wheel_5:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__5,Summary_PedestalFromCondDB__TEC__side__1__wheel__5
+SiStrip/MechanicalView/TEC/side_1/wheel_6:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__6,Summary_PedestalFromCondDB__TEC__side__1__wheel__6
+SiStrip/MechanicalView/TEC/side_1/wheel_7:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__7,Summary_PedestalFromCondDB__TEC__side__1__wheel__7
+SiStrip/MechanicalView/TEC/side_1/wheel_8:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__8,Summary_PedestalFromCondDB__TEC__side__1__wheel__8
+SiStrip/MechanicalView/TEC/side_1/wheel_9:ProfileSummary_PedestalFromCondDB__TEC__side__1__wheel__9,Summary_PedestalFromCondDB__TEC__side__1__wheel__9
+SiStrip/MechanicalView/TEC/side_2/wheel_1:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__1,Summary_PedestalFromCondDB__TEC__side__2__wheel__1
+SiStrip/MechanicalView/TEC/side_2/wheel_2:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__2,Summary_PedestalFromCondDB__TEC__side__2__wheel__2
+SiStrip/MechanicalView/TEC/side_2/wheel_3:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__3,Summary_PedestalFromCondDB__TEC__side__2__wheel__3
+SiStrip/MechanicalView/TEC/side_2/wheel_4:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__4,Summary_PedestalFromCondDB__TEC__side__2__wheel__4
+SiStrip/MechanicalView/TEC/side_2/wheel_5:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__5,Summary_PedestalFromCondDB__TEC__side__2__wheel__5
+SiStrip/MechanicalView/TEC/side_2/wheel_6:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__6,Summary_PedestalFromCondDB__TEC__side__2__wheel__6
+SiStrip/MechanicalView/TEC/side_2/wheel_7:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__7,Summary_PedestalFromCondDB__TEC__side__2__wheel__7
+SiStrip/MechanicalView/TEC/side_2/wheel_8:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__8,Summary_PedestalFromCondDB__TEC__side__2__wheel__8
+SiStrip/MechanicalView/TEC/side_2/wheel_9:ProfileSummary_PedestalFromCondDB__TEC__side__2__wheel__9,Summary_PedestalFromCondDB__TEC__side__2__wheel__9
+SiStrip/MechanicalView/TIB/layer_1:ProfileSummary_PedestalFromCondDB__TIB__layer__1,Summary_PedestalFromCondDB__TIB__layer__1
+SiStrip/MechanicalView/TIB/layer_2:ProfileSummary_PedestalFromCondDB__TIB__layer__2,Summary_PedestalFromCondDB__TIB__layer__2
+SiStrip/MechanicalView/TIB/layer_3:ProfileSummary_PedestalFromCondDB__TIB__layer__3,Summary_PedestalFromCondDB__TIB__layer__3
+SiStrip/MechanicalView/TIB/layer_4:ProfileSummary_PedestalFromCondDB__TIB__layer__4,Summary_PedestalFromCondDB__TIB__layer__4
+SiStrip/MechanicalView/TID/side_1/wheel_1:ProfileSummary_PedestalFromCondDB__TID__side__1__wheel__1,Summary_PedestalFromCondDB__TID__side__1__wheel__1
+SiStrip/MechanicalView/TID/side_1/wheel_2:ProfileSummary_PedestalFromCondDB__TID__side__1__wheel__2,Summary_PedestalFromCondDB__TID__side__1__wheel__2
+SiStrip/MechanicalView/TID/side_1/wheel_3:ProfileSummary_PedestalFromCondDB__TID__side__1__wheel__3,Summary_PedestalFromCondDB__TID__side__1__wheel__3
+SiStrip/MechanicalView/TID/side_2/wheel_1:ProfileSummary_PedestalFromCondDB__TID__side__2__wheel__1,Summary_PedestalFromCondDB__TID__side__2__wheel__1
+SiStrip/MechanicalView/TID/side_2/wheel_2:ProfileSummary_PedestalFromCondDB__TID__side__2__wheel__2,Summary_PedestalFromCondDB__TID__side__2__wheel__2
+SiStrip/MechanicalView/TID/side_2/wheel_3:ProfileSummary_PedestalFromCondDB__TID__side__2__wheel__3,Summary_PedestalFromCondDB__TID__side__2__wheel__3
+SiStrip/MechanicalView/TOB/layer_1:ProfileSummary_PedestalFromCondDB__TOB__layer__1,Summary_PedestalFromCondDB__TOB__layer__1
+SiStrip/MechanicalView/TOB/layer_2:ProfileSummary_PedestalFromCondDB__TOB__layer__2,Summary_PedestalFromCondDB__TOB__layer__2
+SiStrip/MechanicalView/TOB/layer_3:ProfileSummary_PedestalFromCondDB__TOB__layer__3,Summary_PedestalFromCondDB__TOB__layer__3
+SiStrip/MechanicalView/TOB/layer_4:ProfileSummary_PedestalFromCondDB__TOB__layer__4,Summary_PedestalFromCondDB__TOB__layer__4
+SiStrip/MechanicalView/TOB/layer_5:ProfileSummary_PedestalFromCondDB__TOB__layer__5,Summary_PedestalFromCondDB__TOB__layer__5
+SiStrip/MechanicalView/TOB/layer_6:ProfileSummary_PedestalFromCondDB__TOB__layer__6,Summary_PedestalFromCondDB__TOB__layer__6
+ ------------------------------------------------------------
+
+ DQMStore: Opening TFile 'SiStripPedestals_GR09_31X_v1_hlt_Run_111664.root' with option 'RECREATE'
+DQMStore::save: successfully wrote 68 objects from path '' into DQM file 'SiStripPedestals_GR09_31X_v1_hlt_Run_111664.root'

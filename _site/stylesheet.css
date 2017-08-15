@@ -1,0 +1,54 @@
+<style type="text/css">
+  body		{margin:0%;
+  		padding:0%;
+		color:#000000;
+		background-color:#ffffff;
+		font-family: sans-serif;
+		}
+		
+  #masthead	{font-size:3em;
+  		color:#000000;
+		background-color:#a9d1ff;
+		padding:0.5em;
+		text-align:center;
+		}
+
+  #menu		{float:left;
+		width:22%;
+		height:auto;
+		margin-left:0%;
+		color:#3179ac;
+		background-color:#eae9e8;
+		}
+#mainText	{margin:0 5% 0 5%;}
+
+#foot		{text-align:center;
+		font-size:smaller;
+		}
+		
+a		{text-decoration:none;
+		color:#3179ac;
+		font-weight:bold;
+		display:block;
+		display:inline;
+		}
+		
+a:hover		{color:grey;}
+
+ul		{list-style:none;}
+
+#code {
+	font-family: serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: medium;
+	line-height: 100%;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-decoration: none;
+	text-transform: none;
+	text-align: left;
+	text-indent: 0ex;
+}
+</style>
